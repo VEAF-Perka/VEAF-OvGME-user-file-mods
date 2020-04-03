@@ -1,0 +1,10 @@
+Bonjour ami pilote DCS,
+
+Pour profiter de la livrée, mettre le dosier SABLE ATLAS dans:
+C:\Users\xxx\Saved Games\DCS.openbeta\liveries\M-2000C
+
+Si le dossier liveries n'existe pas il suffit de le créer.
+
+Bon vol pilote !
+
+Eric,call sign ===> Atlas. 
