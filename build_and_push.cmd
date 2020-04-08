@@ -1,5 +1,4 @@
 @echo off
-setlocal enabledelayedexpansion
 echo.
 echo ========================================
 echo     Building DCS VEAF user mods
@@ -16,6 +15,7 @@ echo ----------------------------------------
 echo  Packing mods
 echo ----------------------------------------
 echo.
+
 rem Pack mods
 for /f "tokens=*" %%i in ('DIR /a:d /b _*') DO (
     rem -- compile the mod
@@ -24,10 +24,11 @@ for /f "tokens=*" %%i in ('DIR /a:d /b _*') DO (
 )
 
 rem Build xml file
+setlocal enabledelayedexpansion
 echo ^<?xml version="1.0"?^> >.\build\veaf_user_mods.xml
 echo ^<mod_list^> >>.\build\veaf_user_mods.xml
 for /f "tokens=*" %%i in ('DIR /a:d /b x*') DO (
-    rem -- compile the mod
+    rem -- add the mod to the xml file
     call :xml_lines "%%i"
 )
 echo ^</mod_list^> >>.\build\veaf_user_mods.xml
@@ -63,18 +64,24 @@ rem Routine to pack mods
 :packmods
  set temp=%1
  set modname=%temp:~2,-1%
- 7za a -r -tzip .\build\%modname%.zip .\%1\* -mem=AES256 >nul 2>&1
+ 7za a -r -tzip .\build\%modname%.zip .\%1\* -x!".deleteme" -mem=AES256  >nul 2>&1
  cd build
  ren %modname%.zip "%modname:_= %.zip"
  cd ..
  echo %modname% packed
  GOTO :eof
 
-rem Routine to pack mods
+rem Routine to rename mod folder
 :rename_packed_folder
  set oldfoldername=%1
- set newfoldername=x%oldfoldername:~2,-1%
- move %oldfoldername% %newfoldername%
+ set newfoldername="x%oldfoldername:~2,-1%"
+ if exist %oldfoldername%\.deleteme (
+     rem file exists
+     rd /s/q %oldfoldername%
+ ) else (
+     rem file doesn't exist
+     move "%oldfoldername%" "%newfoldername%"
+ )
  GOTO :eof
 
 rem Routine to build xml line for each mod

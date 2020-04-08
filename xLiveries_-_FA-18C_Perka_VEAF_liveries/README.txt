@@ -1,6 +1,18 @@
-Some FA-18C liveries customized for VEAF use with pilot Nicknames.
-https://community.veaf.org/topic/265/skin-f18-veaf-14-735
-https://community.veaf.org/topic/270/skin-f18-bad-duck
+Official VEAF-14.735 F/A-18C liveries customized with pilot name.
+- VEAF (default skin)
+- CoubyStark
+- Griffin
+- James
+- Perka
+- Zip
 
-By Perka
-Last update : 05/04/2020
+Skins officielles VEAF-14.735 pour le F/A-18C, avec le nom du pilote.
+
+---------------------------------------
+-- Tested with DCS World 2.5.6.45915 --
+---------------------------------------
+
+By Perka (https://community.veaf.org/topic/309/skin-f-a-18c)
+
+Zip.
+http://www.veaf.org

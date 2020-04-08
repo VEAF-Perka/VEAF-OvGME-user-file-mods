@@ -1,0 +1,10 @@
+open *remote server IP* 21
+*ftp.user*
+*ftp.password*
+binary
+cd /remote folder
+lcd .\build
+prompt
+mput "*.zip"
+put veaf_user_mods.xml
+quit
