@@ -1,3 +1,5 @@
 build/
 /7za.exe
 *.ftp
+
+build_liveries.cmd
