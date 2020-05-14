@@ -1,0 +1,13 @@
+wave = "Effects/Aircrafts/FA-18/Distant_Afterburner"
+distance_filter_offset = 1000
+silent_radius = 300
+peak_radius = 500
+inner_radius = 750
+outer_radius = 5000
+cone_inner_angle = 30
+cone_outer_angle = 165
+cone_outer_gain = 0
+direction = {-1, 0, 0}
+attack = 1
+release = 1.2
+gain = 2.1

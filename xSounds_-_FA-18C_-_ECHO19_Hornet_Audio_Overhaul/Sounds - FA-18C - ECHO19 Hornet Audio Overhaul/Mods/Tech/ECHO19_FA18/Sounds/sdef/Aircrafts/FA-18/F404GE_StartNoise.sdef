@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/FA-18/F404GE_StartNoise"
+inner_radius = 40
+outer_radius = 1000
+release = 0.3
+gain = 1.5

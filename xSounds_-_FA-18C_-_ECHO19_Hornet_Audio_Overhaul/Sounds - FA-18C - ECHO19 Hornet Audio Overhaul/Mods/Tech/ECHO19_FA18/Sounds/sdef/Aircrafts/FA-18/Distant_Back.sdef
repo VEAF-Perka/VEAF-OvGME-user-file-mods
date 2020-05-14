@@ -1,0 +1,13 @@
+wave = "Effects/Aircrafts/FA-18/Distant_Back"
+distance_filter_offset = 600
+nodoppler=true
+silent_radius = 300
+peak_radius = 700
+inner_radius = 700
+outer_radius = 3000
+cone_inner_angle = 40
+cone_outer_angle = 85
+cone_outer_gain = 0.03
+direction = {-1, 0, 0}
+position = {-3.0, 0.0, 0.0}
+gain = 2.8

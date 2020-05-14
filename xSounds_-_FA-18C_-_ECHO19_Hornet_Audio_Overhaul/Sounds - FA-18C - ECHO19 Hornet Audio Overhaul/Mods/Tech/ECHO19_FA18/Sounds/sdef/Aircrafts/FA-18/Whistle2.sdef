@@ -1,0 +1,16 @@
+wave = "Effects/Aircrafts/FA-18/howl"
+distance_filter_offset = 100
+autowidth = false
+silence_radius = 100
+peak_radius = 400
+inner_radius = 350
+outer_radius = 800
+cone_inner_angle = 90
+cone_outer_angle = 120
+cone_outer_gain = 0.0
+position = {-2.0, 0.0, 0.0}
+direction = {1, 0, 0}
+pitch = 0.8
+attack = 1
+release = 1
+gain = 1.8

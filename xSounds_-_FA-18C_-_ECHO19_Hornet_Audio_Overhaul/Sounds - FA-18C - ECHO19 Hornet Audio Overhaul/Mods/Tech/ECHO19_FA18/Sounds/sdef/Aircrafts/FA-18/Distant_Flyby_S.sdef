@@ -1,0 +1,15 @@
+wave = {"Effects/Aircrafts/FA-18/Distant_Flyby_S_alt3", "Effects/Aircrafts/FA-18/Distant_Flyby_S"}
+listmode = ASR
+distance_filter_offset = 250
+silent_radius = 60
+peak_radius = 350
+inner_radius = 450
+outer_radius = 1500
+cone_inner_angle = 50
+cone_outer_angle = 35
+cone_outer_gain = 0.2
+attack = 0.2
+release = 0.2
+position = {-3.0, 0.0, 0.0}
+direction = {-1, 0, 0}
+gain = 3.0

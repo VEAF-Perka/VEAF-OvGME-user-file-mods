@@ -1,0 +1,12 @@
+wave = {"Effects/Aircrafts/FA-18/approach_var5"}
+nodoppler = true
+distance_filter_offset = 800
+silent_radius = 100
+peak_radius = 500
+inner_radius = 550
+outer_radius = 3000
+cone_inner_angle = 30
+cone_outer_angle = 110
+cone_outer_gain = 0.0
+direction = {1, 0, 0}
+gain = 3.0

@@ -1,0 +1,56 @@
+Report bugs to E19 Discord (https://discord.gg/M7G3gja) or ED Forums thread: https://forums.eagle.ru/showthread.php?t=219797
+
+Known issues: some looping errors with one of the rear exit samples after flyby w/no afterburner
+
+Wish list: more flexibility to add additional samples for specific throttle ranges.
+
+CHANGELOG:
+
+v3.10 (14/04/2020)
+
+-Fixed install path instructions
+-Tweaked afterburner and distant afterburner samples
+-Tweaked distant_front SDEF to fix approach radius
+-New EULA and README files
+-Changed install method
+-Fancy features ;)
+
+v3.0.1 (13/09/2019)
+
+- New and refined afterburner sound
+- New and greatly improved flyby effects, both in afterburner and idle!
+- Approach sound have also been re-worked!
+- Redesigned sound definition files for more cohesion
+- Several other tweaks, changes and improvements
+
+v2.0.0 (21/02/2019)
+ FIXED:
+- Howling siren effect in F2 view. 
+- Whisking effect in F2/F3 view should no longer be audible.
+
+NEW / TWEAKS:
+- Replaced "around" sample with cleaned up, more audible version.
+- Added a couple samples to some sources, plays randomly in list mode (dynamic).
+- Tweaks and adjustments to several other sound-sets.
+
+v1.1.1 (23/12/18)
+ - Bumped volume up for most samples for extra punch.
+
+v1.1 (22/12/18)
+- Adjusted Distant_Flyby_S - it was creating a distracting "whisking" sound while in F2/F3. This has been largely reduced.
+- Tweaked a few samples' EQ
+- Adjusted some samples' gain structure
+
+v1.0
+
+Release ver.
+
+
+
+known issues/wishlist items:
+
+* HOWL / SIREN EFFECT: activates 100% of time while in flight, varies on speed, non dependent on camera pos. ED API issue.
+* MID-LEVEL FLIGHT FLYBY: there aren't any "flyby" warping sounds that the hornet has IRL, however cannot add any due to API restriction.
+
+
+

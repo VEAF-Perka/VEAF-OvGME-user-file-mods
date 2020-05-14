@@ -1,0 +1,15 @@
+wave = {"Effects/Aircrafts/FA-18/approach_quick_v1", "Effects/Aircrafts/FA-18/approach_var4"}
+listmode = ASR
+nodoppler = true
+distance_filter_offset = 400
+silent_radius = 70
+inner_radius = 450
+outer_radius = 800
+cone_inner_angle = 20
+cone_outer_angle = 110
+cone_outer_gain = 0.1
+attack = 0.3
+release = 0.4
+direction = {1, 0, 0}
+position = {-2.0, 0.0, 0.0}
+gain = 3.0

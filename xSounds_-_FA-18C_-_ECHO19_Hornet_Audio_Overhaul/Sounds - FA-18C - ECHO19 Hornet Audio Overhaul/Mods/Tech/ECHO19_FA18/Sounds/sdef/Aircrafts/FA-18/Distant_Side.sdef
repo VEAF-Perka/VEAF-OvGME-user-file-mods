@@ -1,0 +1,12 @@
+wave = "Effects/Aircrafts/FA-18/Distant_Side"
+distance_filter_offset = 300
+silent_radius = 30
+peak_radius = 200
+inner_radius = 700
+outer_radius = 3000
+cone_inner_angle = 70
+cone_outer_angle = 45
+cone_outer_gain = 0
+direction = {1, 0, 0}
+release = 1
+gain = 3.2

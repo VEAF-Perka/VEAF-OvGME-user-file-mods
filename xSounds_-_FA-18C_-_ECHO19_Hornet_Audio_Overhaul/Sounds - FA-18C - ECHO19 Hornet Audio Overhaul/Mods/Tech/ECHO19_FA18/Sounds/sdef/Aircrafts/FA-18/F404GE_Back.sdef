@@ -1,0 +1,12 @@
+wave = "Effects/Aircrafts/FA-18/F404GE_Back"
+distance_filter_offset = 100
+silent_radius = 10
+peak_radius = 5
+inner_radius = 100
+outer_radius = 600
+position = {-3.0, 0.0, 0.0}
+cone_inner_angle = 60
+cone_outer_angle = 100
+cone_outer_gain = 0
+direction = {-1, 0, 0}
+gain = 1.0

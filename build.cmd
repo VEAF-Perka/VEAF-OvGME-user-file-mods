@@ -58,6 +58,8 @@ rem Routine to rename mod folder
 :rename_packed_folder
  set oldfoldername=%1
  set newfoldername="x%oldfoldername:~2,-1%"
+ rem echo oldfoldername=%oldfoldername%
+ rem echo newfoldername=%newfoldername%
  if exist %oldfoldername%\.deleteme (
      rem file exists
      rd /s/q %oldfoldername%

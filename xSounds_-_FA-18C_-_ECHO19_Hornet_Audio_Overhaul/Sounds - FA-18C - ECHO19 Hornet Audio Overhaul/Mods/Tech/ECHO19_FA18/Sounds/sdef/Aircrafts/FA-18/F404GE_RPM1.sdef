@@ -1,0 +1,4 @@
+wave = "Effects/Aircrafts/FA-18/F404GE_RPM1"
+inner_radius = 25
+outer_radius = 60
+gain = 1

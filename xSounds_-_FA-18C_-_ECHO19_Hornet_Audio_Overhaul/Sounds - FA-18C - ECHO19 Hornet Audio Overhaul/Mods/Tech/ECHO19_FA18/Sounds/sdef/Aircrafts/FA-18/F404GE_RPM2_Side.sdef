@@ -1,0 +1,8 @@
+wave = "Effects/Aircrafts/FA-18/F404GE_RPM2_Side"
+inner_radius = 50
+outer_radius = 1500
+cone_inner_angle = 110
+cone_outer_angle = 165
+cone_outer_gain = 0.3
+direction = {-1, 0, 0}
+gain = 1.3
