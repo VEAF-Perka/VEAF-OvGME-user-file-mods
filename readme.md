@@ -2,6 +2,20 @@
 
 Dedicated topic on VEAF forum : https://community.veaf.org/topic/303/ovgme-veaf-user-file-mods
 
+## GIT and files larger than 50M
+
+Git discourages pushing files larger than 50M and actively blocks files larger than 100M.
+Unfortunately, some mods contain large files.
+To bypass this limitation, we use the *git lfs* (Large File System) plugin.
+
+### Install the *git lfs* plugin
+
+To install the plugin, simply type `git lfs install` in a shell while inside the repository folder.
+
+### Track a large file
+
+When adding a new large file to the repository, you need to use the `git lfs track "<the file relative path>"` command, instructing *git lfs* to manage the file.
+
 ## How to use this script
 
 You need to create **remoterepository.ftp** from **remoterepository.ftp.exemple** basis in order to push OvGME mods on dedicated remote repository.
