@@ -40,3 +40,4 @@ goto :exit
 GOTO :eof
 
 :exit
+pause

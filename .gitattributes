@@ -5,3 +5,6 @@ d:/dev/_VEAF/VEAF-OvGME-user-file-mods/xObjects_-_AM2Mat_FARP/Objects filter=lfs
 AM2Mat filter=lfs diff=lfs merge=lfs -text
 xObjects_-_AM2Mat_FARP/Objects[[:space:]]-[[:space:]]AM2Mat[[:space:]]FARP/Mods/Tech/AM2Mat/Textures/AM2MATTEXTURE.zip filter=lfs diff=lfs merge=lfs -text
 xObjects_-_MarstonMat_FARP/Objects[[:space:]]-[[:space:]]MarstonMat[[:space:]]FARP/Mods/Tech/WWII[[:space:]]MarstonMat/Textures/MARSTON.zip filter=lfs diff=lfs merge=lfs -text
+xLiveries_-_FA-18C_-_Perka_14F_OP_Mousquetaire_LV/versions/* filter=lfs diff=lfs merge=lfs -text
+xLiveries_-_FA-18C_-_Perka_14F_OP_Mousquetaire_HV/versions/* filter=lfs diff=lfs merge=lfs -text
+xLiveries_-_FA-18C_-_Perka_14.735_Corsairs/versions/* filter=lfs diff=lfs merge=lfs -text

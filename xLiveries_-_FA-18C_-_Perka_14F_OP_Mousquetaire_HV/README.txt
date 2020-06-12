@@ -1,10 +1,15 @@
 VEAF-14.735 "Operation Mousquetaire 14F, High Visibility" F/A-18C liveries customized with pilot name.
 - VEAF (default skin)
 - CoubyStark
+- Darthmoul
 - Griffin
 - James
+- OlivierG
 - Perka
+- Phebus
+- Swoob
 - Teken
+- Ti'rco
 - Zip
 
 Skins VEAF-14.735 "Operation Mousquetaire 14F, High Visibility" pour le F/A-18C, avec le nom du pilote.
