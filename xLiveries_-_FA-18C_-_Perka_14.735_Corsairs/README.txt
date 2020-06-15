@@ -2,9 +2,10 @@ Official VEAF-14.735 F/A-18C liveries customized with pilot name.
 - VEAF (default skin)
 - CoubyStark
 - Darthmoul
+- FGhouse
 - Griffin
+- Hodgy
 - James
-- OlivierG
 - Perka
 - Phebus
 - Swoob
