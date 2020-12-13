@@ -8,3 +8,4 @@ xObjects_-_MarstonMat_FARP/Objects[[:space:]]-[[:space:]]MarstonMat[[:space:]]FA
 xLiveries_-_FA-18C_-_Perka_14F_OP_Mousquetaire_LV/versions/* filter=lfs diff=lfs merge=lfs -text
 xLiveries_-_FA-18C_-_Perka_14F_OP_Mousquetaire_HV/versions/* filter=lfs diff=lfs merge=lfs -text
 xLiveries_-_FA-18C_-_Perka_14.735_Corsairs/versions/* filter=lfs diff=lfs merge=lfs -text
+*.edm filter=lfs diff=lfs merge=lfs -text
